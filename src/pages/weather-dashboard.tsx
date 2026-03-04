@@ -13,7 +13,6 @@ import {
 } from "@/hooks/use-weather";
 import { useGeolocation } from "@/hooks/useGeoLocation";
 import { AlertTriangle, MapPin, RefreshCcw } from "lucide-react";
-import React from "react";
 
 const WeatherDashboard = () => {
   const {

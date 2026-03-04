@@ -1,4 +1,3 @@
-import React from "react";
 import type { WeatherData } from "@/api/types";
 import { format } from "date-fns";
 import { Compass, Gauge, Sunrise, Sunset } from "lucide-react";

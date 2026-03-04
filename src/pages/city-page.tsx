@@ -2,13 +2,11 @@ import CurrentWeather from "@/components/currentWeather";
 import FavoriteButton from "@/components/FavoriteButton";
 import HourlyTemperature from "@/components/HourlyTemperature";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { Button } from "@/components/ui/button";
 import WeatherDetails from "@/components/WeatherDetails";
 import WeatherForecast from "@/components/WeatherForecast";
 import WeatherSkeleton from "@/components/WeatherSkeleton";
 import { useForecastQuery, useWEatherQuery } from "@/hooks/use-weather";
-import { AlertTriangle, MapPin, Star } from "lucide-react";
-import React from "react";
+import { AlertTriangle } from "lucide-react";
 import { useParams, useSearchParams } from "react-router-dom";
 
 const CityPage = () => {

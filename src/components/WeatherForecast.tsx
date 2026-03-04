@@ -1,6 +1,5 @@
 import type { ForecastData } from "@/api/types";
-import { format, formatDate } from "date-fns";
-import React from "react";
+import { format } from "date-fns";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { ArrowDown, ArrowUp, Droplets, Wind } from "lucide-react";
 

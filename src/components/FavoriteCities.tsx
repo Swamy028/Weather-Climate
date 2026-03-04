@@ -1,10 +1,9 @@
 import { useFavorite } from "@/hooks/useFavorite";
-import React from "react";
 import { ScrollArea } from "./ui/scroll-area";
 import { useNavigate } from "react-router-dom";
 import { useWEatherQuery } from "@/hooks/use-weather";
 import { Button } from "./ui/button";
-import { Loader, Loader2, X } from "lucide-react";
+import { Loader, X } from "lucide-react";
 import { toast } from "sonner";
 
 interface FavoriteCityTabProps {
